@@ -5,7 +5,7 @@ const Routes = [
         method: 'GET',
         path: '/{path*}',
         handler: (request, reply) => {
-            return reply.file('login.html');
+            return reply.file('index.html');
         }
     }
 ]
